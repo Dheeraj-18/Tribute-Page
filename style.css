@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+#title {
+  text-align: center;
+  font-size: 3vmax;
+  font-family: 'Roboto', sans-serif;
+}
+#title-line {
+  text-align: center;
+  font-size: 2vmax;
+  font-family: 'Roboto', sans-serif;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+#image {
+  width: 50%;
+  margin: 20px;
+}
+#img-div {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-inline: auto;
+}
+#img-caption {
+  width: 75%;
+  margin: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+#quote {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+li {
+  margin: 1.5rem;
+}
+#tribute-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#tribute-link {
+  color: #477ca7;
+}
